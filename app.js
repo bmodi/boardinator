@@ -33,7 +33,7 @@ app.set('view engine', 'ejs');
 //----------------------------------------------------------
 app.get("/boards/:boardId", (req, res, next) => {
   var board = getBoard(req.params.boardId, 5);
-  if ( req.useragent.isDesktop ) {
+  if ( req.useragent.isDesktop || req.useragent.isMobile ) {
     res.render('board', board);
   } else {
     res.send(board);
