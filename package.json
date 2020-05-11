@@ -18,13 +18,11 @@
   },
   "homepage": "https://github.com/bmodi/svarbnetics#readme",
   "dependencies": {
-    "chart.js": "^2.9.3",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
     "express-useragent": "^1.0.13",
     "mocha": "^6.2.2",
     "node-cache": "^5.1.0",
-    "pug": "^2.0.4",
     "serve-favicon": "^2.5.0",
     "sinon": "^7.5.0",
     "uuid": "^8.0.0"
