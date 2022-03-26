@@ -21,7 +21,7 @@
     "ejs": "^3.1.2",
     "express": "^4.17.1",
     "express-useragent": "^1.0.13",
-    "minimist": ">=0.2.1",
+    "minimist": ">=1.2.6",
     "mocha": "^7.1.2",
     "node-cache": "^5.1.0",
     "serve-favicon": "^2.5.0",
